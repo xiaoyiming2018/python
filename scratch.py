@@ -24,6 +24,9 @@ def print_time(threadName, delay, counter):
         time.sleep(delay)
         print("%s: %s" % (threadName, time.ctime(time.time())))
         counter -= 1
+		
+def print_name(name):
+	print(name)
 
 
 # 创建新线程
